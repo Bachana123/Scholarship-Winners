@@ -1,75 +1,59 @@
-# Nuxt Minimal Starter
+# Scholarship Winners
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+This project is a web application built using **Nuxt 3**. The app leverages **Vue.js**, **Tailwind CSS** and **PrimeVue** for a modern and responsive UI.
 
-Make sure to install dependencies:
+## Tech Stack and Challenges
 
-```bash
-# npm
-npm install
+### Tech Stack
+- **Frontend:** Nuxt 3 (Vue 3 + TypeScript)
+- **Styling:** Tailwind CSS
+- **component library:** PrimeVue
 
-# pnpm
-pnpm install
+### Challenges Faced
+- **Pagination & Filtering:** Implementing a dynamic pagination system.
+- **SEO Optimization:** Adding proper meta tags and structured data for better search engine visibility.
+- **CORS:** got issue with CORs from scholarship API
 
-# yarn
-yarn install
+## Getting Started
 
-# bun
-bun install
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (>=16.x)
+- **Yarn** or **npm**
+- **CORS** extention in chrome to allow CORs
+
+### Installation
+
+```sh
+# Clone the repository
+git clone https://github.com/Bachana123/Scholarship-Winners.git
+cd scholarship-winners
+
+# Install dependencies
+yarn  # or npm install
 ```
 
-## Development Server
+### Environment Variables
+Create a `.env` file and add your Contentful credentials:
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```sh
+NUXT_BASE_URL=base api url ( without / at the end)
 ```
 
-## Production
+### Start the Development Server
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```sh
+yarn dev  # or npm run dev
 ```
 
-Locally preview production build:
+## Deployment
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```sh
+yarn build  # or npm run build
+yarn generate  # Generate static files (if using SSG)
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+Feel free to contribute or report issues via [GitHub Issues](https://github.com/Bachana123/Scholarship-Winners/issues). 🚀
